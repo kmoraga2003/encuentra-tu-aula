@@ -10,7 +10,7 @@ export const AULAS_DATA: Aula[] = [
     "edificio": "Edificio A",
     "sede": "San Joaquín",
     "direccion": "Vicuña Mackenna 4835, San Joaquín",
-    "mensajeOrientacion": "Esta sala se encuentra en la sede de Vicuña Mackenna (Vicuña Mackenna 4835, San Joaquín), en el Edificio A y queda ubicada en el Piso 1."
+    "mensajeOrientacion": "Esta sala se encuentra en la sede de Vicuña Mackenna (Vicuña Mackenna 4835, San Joaquín), Sector A y queda ubicada en el Piso 1."
   },
   {
     "sala": "A101",
@@ -21,7 +21,7 @@ export const AULAS_DATA: Aula[] = [
     "edificio": "Edificio A",
     "sede": "San Joaquín",
     "direccion": "Vicuña Mackenna 4835, San Joaquín",
-    "mensajeOrientacion": "Esta sala se encuentra en la sede de Vicuña Mackenna (Vicuña Mackenna 4835, San Joaquín), en el Edificio A y queda ubicada en el Piso 1."
+    "mensajeOrientacion": "Esta sala se encuentra en la sede de Vicuña Mackenna (Vicuña Mackenna 4835, San Joaquín), Sector A y queda ubicada en el Piso 1."
   },
   {
     "sala": "A102",
@@ -32,7 +32,7 @@ export const AULAS_DATA: Aula[] = [
     "edificio": "Edificio A",
     "sede": "San Joaquín",
     "direccion": "Vicuña Mackenna 4835, San Joaquín",
-    "mensajeOrientacion": "Esta sala se encuentra en la sede de Vicuña Mackenna (Vicuña Mackenna 4835, San Joaquín), en el Edificio A y queda ubicada en el Piso 1."
+    "mensajeOrientacion": "Esta sala se encuentra en la sede de Vicuña Mackenna (Vicuña Mackenna 4835, San Joaquín), Sector A y queda ubicada en el Piso 1."
   },
   {
     "sala": "A200",
@@ -43,7 +43,7 @@ export const AULAS_DATA: Aula[] = [
     "edificio": "Edificio A",
     "sede": "San Joaquín",
     "direccion": "Vicuña Mackenna 4835, San Joaquín",
-    "mensajeOrientacion": "Esta sala se encuentra en la sede de Vicuña Mackenna (Vicuña Mackenna 4835, San Joaquín), en el Edificio A y queda ubicada en el Piso 2."
+    "mensajeOrientacion": "Esta sala se encuentra en la sede de Vicuña Mackenna (Vicuña Mackenna 4835, San Joaquín), Sector A y queda ubicada en el Piso 2."
   },
   {
     "sala": "A201",
@@ -54,7 +54,7 @@ export const AULAS_DATA: Aula[] = [
     "edificio": "Edificio A",
     "sede": "San Joaquín",
     "direccion": "Vicuña Mackenna 4835, San Joaquín",
-    "mensajeOrientacion": "Esta sala se encuentra en la sede de Vicuña Mackenna (Vicuña Mackenna 4835, San Joaquín), en el Edificio A y queda ubicada en el Piso 2."
+    "mensajeOrientacion": "Esta sala se encuentra en la sede de Vicuña Mackenna (Vicuña Mackenna 4835, San Joaquín), Sector A y queda ubicada en el Piso 2."
   },
   {
     "sala": "A202",
@@ -65,7 +65,7 @@ export const AULAS_DATA: Aula[] = [
     "edificio": "Edificio A",
     "sede": "San Joaquín",
     "direccion": "Vicuña Mackenna 4835, San Joaquín",
-    "mensajeOrientacion": "Esta sala se encuentra en la sede de Vicuña Mackenna (Vicuña Mackenna 4835, San Joaquín), en el Edificio A y queda ubicada en el Piso 2."
+    "mensajeOrientacion": "Esta sala se encuentra en la sede de Vicuña Mackenna (Vicuña Mackenna 4835, San Joaquín), Sector A y queda ubicada en el Piso 2."
   },
   {
     "sala": "A203",
@@ -76,7 +76,7 @@ export const AULAS_DATA: Aula[] = [
     "edificio": "Edificio A",
     "sede": "San Joaquín",
     "direccion": "Vicuña Mackenna 4835, San Joaquín",
-    "mensajeOrientacion": "Esta sala se encuentra en la sede de Vicuña Mackenna (Vicuña Mackenna 4835, San Joaquín), en el Edificio A y queda ubicada en el Piso 2."
+    "mensajeOrientacion": "Esta sala se encuentra en la sede de Vicuña Mackenna (Vicuña Mackenna 4835, San Joaquín), Sector A y queda ubicada en el Piso 2."
   },
   {
     "sala": "A204",
@@ -87,7 +87,7 @@ export const AULAS_DATA: Aula[] = [
     "edificio": "Edificio A",
     "sede": "San Joaquín",
     "direccion": "Vicuña Mackenna 4835, San Joaquín",
-    "mensajeOrientacion": "Esta sala se encuentra en la sede de Vicuña Mackenna (Vicuña Mackenna 4835, San Joaquín), en el Edificio A y queda ubicada en el Piso 2."
+    "mensajeOrientacion": "Esta sala se encuentra en la sede de Vicuña Mackenna (Vicuña Mackenna 4835, San Joaquín), Sector A y queda ubicada en el Piso 2."
   },
   {
     "sala": "A300",
@@ -98,7 +98,7 @@ export const AULAS_DATA: Aula[] = [
     "edificio": "Edificio A",
     "sede": "San Joaquín",
     "direccion": "Vicuña Mackenna 4835, San Joaquín",
-    "mensajeOrientacion": "Esta sala se encuentra en la sede de Vicuña Mackenna (Vicuña Mackenna 4835, San Joaquín), en el Edificio A y queda ubicada en el Piso 3."
+    "mensajeOrientacion": "Esta sala se encuentra en la sede de Vicuña Mackenna (Vicuña Mackenna 4835, San Joaquín), Sector A y queda ubicada en el Piso 3."
   },
   {
     "sala": "A301",
@@ -109,7 +109,7 @@ export const AULAS_DATA: Aula[] = [
     "edificio": "Edificio A",
     "sede": "San Joaquín",
     "direccion": "Vicuña Mackenna 4835, San Joaquín",
-    "mensajeOrientacion": "Esta sala se encuentra en la sede de Vicuña Mackenna (Vicuña Mackenna 4835, San Joaquín), en el Edificio A y queda ubicada en el Piso 3."
+    "mensajeOrientacion": "Esta sala se encuentra en la sede de Vicuña Mackenna (Vicuña Mackenna 4835, San Joaquín), Sector A y queda ubicada en el Piso 3."
   },
   {
     "sala": "A302",
@@ -120,7 +120,7 @@ export const AULAS_DATA: Aula[] = [
     "edificio": "Edificio A",
     "sede": "San Joaquín",
     "direccion": "Vicuña Mackenna 4835, San Joaquín",
-    "mensajeOrientacion": "Esta sala se encuentra en la sede de Vicuña Mackenna (Vicuña Mackenna 4835, San Joaquín), en el Edificio A y queda ubicada en el Piso 3."
+    "mensajeOrientacion": "Esta sala se encuentra en la sede de Vicuña Mackenna (Vicuña Mackenna 4835, San Joaquín), Sector A y queda ubicada en el Piso 3."
   },
   {
     "sala": "A400",
@@ -131,7 +131,7 @@ export const AULAS_DATA: Aula[] = [
     "edificio": "Edificio A",
     "sede": "San Joaquín",
     "direccion": "Vicuña Mackenna 4835, San Joaquín",
-    "mensajeOrientacion": "Esta sala se encuentra en la sede de Vicuña Mackenna (Vicuña Mackenna 4835, San Joaquín), en el Edificio A y queda ubicada en el Piso 4."
+    "mensajeOrientacion": "Esta sala se encuentra en la sede de Vicuña Mackenna (Vicuña Mackenna 4835, San Joaquín), Sector A y queda ubicada en el Piso 4."
   },
   {
     "sala": "A401",
@@ -142,7 +142,7 @@ export const AULAS_DATA: Aula[] = [
     "edificio": "Edificio A",
     "sede": "San Joaquín",
     "direccion": "Vicuña Mackenna 4835, San Joaquín",
-    "mensajeOrientacion": "Esta sala se encuentra en la sede de Vicuña Mackenna (Vicuña Mackenna 4835, San Joaquín), en el Edificio A y queda ubicada en el Piso 4."
+    "mensajeOrientacion": "Esta sala se encuentra en la sede de Vicuña Mackenna (Vicuña Mackenna 4835, San Joaquín), Sector A y queda ubicada en el Piso 4."
   },
   {
     "sala": "B201",
@@ -153,7 +153,7 @@ export const AULAS_DATA: Aula[] = [
     "edificio": "Edificio B",
     "sede": "San Joaquín",
     "direccion": "Vicuña Mackenna 4835, San Joaquín",
-    "mensajeOrientacion": "Esta sala se encuentra en la sede de Vicuña Mackenna (Vicuña Mackenna 4835, San Joaquín), en el Edificio B y queda ubicada en el Piso 2."
+    "mensajeOrientacion": "Esta sala se encuentra en la sede de Vicuña Mackenna (Vicuña Mackenna 4835, San Joaquín), Sector B y queda ubicada en el Piso 2."
   },
   {
     "sala": "B202",
@@ -164,7 +164,7 @@ export const AULAS_DATA: Aula[] = [
     "edificio": "Edificio B",
     "sede": "San Joaquín",
     "direccion": "Vicuña Mackenna 4835, San Joaquín",
-    "mensajeOrientacion": "Esta sala se encuentra en la sede de Vicuña Mackenna (Vicuña Mackenna 4835, San Joaquín), en el Edificio B y queda ubicada en el Piso 2."
+    "mensajeOrientacion": "Esta sala se encuentra en la sede de Vicuña Mackenna (Vicuña Mackenna 4835, San Joaquín), Sector B y queda ubicada en el Piso 2."
   },
   {
     "sala": "B203",
@@ -175,7 +175,7 @@ export const AULAS_DATA: Aula[] = [
     "edificio": "Edificio B",
     "sede": "San Joaquín",
     "direccion": "Vicuña Mackenna 4835, San Joaquín",
-    "mensajeOrientacion": "Esta sala se encuentra en la sede de Vicuña Mackenna (Vicuña Mackenna 4835, San Joaquín), en el Edificio B y queda ubicada en el Piso 2."
+    "mensajeOrientacion": "Esta sala se encuentra en la sede de Vicuña Mackenna (Vicuña Mackenna 4835, San Joaquín), Sector B y queda ubicada en el Piso 2."
   },
   {
     "sala": "B300",
@@ -186,7 +186,7 @@ export const AULAS_DATA: Aula[] = [
     "edificio": "Edificio B",
     "sede": "San Joaquín",
     "direccion": "Vicuña Mackenna 4835, San Joaquín",
-    "mensajeOrientacion": "Esta sala se encuentra en la sede de Vicuña Mackenna (Vicuña Mackenna 4835, San Joaquín), en el Edificio B y queda ubicada en el Piso 3."
+    "mensajeOrientacion": "Esta sala se encuentra en la sede de Vicuña Mackenna (Vicuña Mackenna 4835, San Joaquín), Sector B y queda ubicada en el Piso 3."
   },
   {
     "sala": "B300A",
@@ -197,7 +197,7 @@ export const AULAS_DATA: Aula[] = [
     "edificio": "Edificio B",
     "sede": "San Joaquín",
     "direccion": "Vicuña Mackenna 4835, San Joaquín",
-    "mensajeOrientacion": "Esta sala se encuentra en la sede de Vicuña Mackenna (Vicuña Mackenna 4835, San Joaquín), en el Edificio B y queda ubicada en el Piso 3."
+    "mensajeOrientacion": "Esta sala se encuentra en la sede de Vicuña Mackenna (Vicuña Mackenna 4835, San Joaquín), Sector B y queda ubicada en el Piso 3."
   },
   {
     "sala": "B301",
@@ -208,7 +208,7 @@ export const AULAS_DATA: Aula[] = [
     "edificio": "Edificio B",
     "sede": "San Joaquín",
     "direccion": "Vicuña Mackenna 4835, San Joaquín",
-    "mensajeOrientacion": "Esta sala se encuentra en la sede de Vicuña Mackenna (Vicuña Mackenna 4835, San Joaquín), en el Edificio B y queda ubicada en el Piso 3."
+    "mensajeOrientacion": "Esta sala se encuentra en la sede de Vicuña Mackenna (Vicuña Mackenna 4835, San Joaquín), Sector B y queda ubicada en el Piso 3."
   },
   {
     "sala": "B302",
@@ -219,7 +219,7 @@ export const AULAS_DATA: Aula[] = [
     "edificio": "Edificio B",
     "sede": "San Joaquín",
     "direccion": "Vicuña Mackenna 4835, San Joaquín",
-    "mensajeOrientacion": "Esta sala se encuentra en la sede de Vicuña Mackenna (Vicuña Mackenna 4835, San Joaquín), en el Edificio B y queda ubicada en el Piso 3."
+    "mensajeOrientacion": "Esta sala se encuentra en la sede de Vicuña Mackenna (Vicuña Mackenna 4835, San Joaquín), Sector B y queda ubicada en el Piso 3."
   },
   {
     "sala": "B303",
@@ -230,7 +230,7 @@ export const AULAS_DATA: Aula[] = [
     "edificio": "Edificio B",
     "sede": "San Joaquín",
     "direccion": "Vicuña Mackenna 4835, San Joaquín",
-    "mensajeOrientacion": "Esta sala se encuentra en la sede de Vicuña Mackenna (Vicuña Mackenna 4835, San Joaquín), en el Edificio B y queda ubicada en el Piso 3."
+    "mensajeOrientacion": "Esta sala se encuentra en la sede de Vicuña Mackenna (Vicuña Mackenna 4835, San Joaquín), Sector B y queda ubicada en el Piso 3."
   },
   {
     "sala": "B304",
@@ -241,7 +241,7 @@ export const AULAS_DATA: Aula[] = [
     "edificio": "Edificio B",
     "sede": "San Joaquín",
     "direccion": "Vicuña Mackenna 4835, San Joaquín",
-    "mensajeOrientacion": "Esta sala se encuentra en la sede de Vicuña Mackenna (Vicuña Mackenna 4835, San Joaquín), en el Edificio B y queda ubicada en el Piso 3."
+    "mensajeOrientacion": "Esta sala se encuentra en la sede de Vicuña Mackenna (Vicuña Mackenna 4835, San Joaquín), Sector B y queda ubicada en el Piso 3."
   },
   {
     "sala": "B305",
@@ -252,7 +252,7 @@ export const AULAS_DATA: Aula[] = [
     "edificio": "Edificio B",
     "sede": "San Joaquín",
     "direccion": "Vicuña Mackenna 4835, San Joaquín",
-    "mensajeOrientacion": "Esta sala se encuentra en la sede de Vicuña Mackenna (Vicuña Mackenna 4835, San Joaquín), en el Edificio B y queda ubicada en el Piso 3."
+    "mensajeOrientacion": "Esta sala se encuentra en la sede de Vicuña Mackenna (Vicuña Mackenna 4835, San Joaquín), Sector B y queda ubicada en el Piso 3."
   },
   {
     "sala": "B306",
@@ -263,7 +263,7 @@ export const AULAS_DATA: Aula[] = [
     "edificio": "Edificio B",
     "sede": "San Joaquín",
     "direccion": "Vicuña Mackenna 4835, San Joaquín",
-    "mensajeOrientacion": "Esta sala se encuentra en la sede de Vicuña Mackenna (Vicuña Mackenna 4835, San Joaquín), en el Edificio B y queda ubicada en el Piso 3."
+    "mensajeOrientacion": "Esta sala se encuentra en la sede de Vicuña Mackenna (Vicuña Mackenna 4835, San Joaquín), Sector B y queda ubicada en el Piso 3."
   },
   {
     "sala": "B307",
@@ -274,7 +274,7 @@ export const AULAS_DATA: Aula[] = [
     "edificio": "Edificio B",
     "sede": "San Joaquín",
     "direccion": "Vicuña Mackenna 4835, San Joaquín",
-    "mensajeOrientacion": "Esta sala se encuentra en la sede de Vicuña Mackenna (Vicuña Mackenna 4835, San Joaquín), en el Edificio B y queda ubicada en el Piso 3."
+    "mensajeOrientacion": "Esta sala se encuentra en la sede de Vicuña Mackenna (Vicuña Mackenna 4835, San Joaquín), Sector B y queda ubicada en el Piso 3."
   },
   {
     "sala": "B308",
@@ -285,7 +285,7 @@ export const AULAS_DATA: Aula[] = [
     "edificio": "Edificio B",
     "sede": "San Joaquín",
     "direccion": "Vicuña Mackenna 4835, San Joaquín",
-    "mensajeOrientacion": "Esta sala se encuentra en la sede de Vicuña Mackenna (Vicuña Mackenna 4835, San Joaquín), en el Edificio B y queda ubicada en el Piso 3."
+    "mensajeOrientacion": "Esta sala se encuentra en la sede de Vicuña Mackenna (Vicuña Mackenna 4835, San Joaquín), Sector B y queda ubicada en el Piso 3."
   },
   {
     "sala": "B401",
@@ -296,7 +296,7 @@ export const AULAS_DATA: Aula[] = [
     "edificio": "Edificio B",
     "sede": "San Joaquín",
     "direccion": "Vicuña Mackenna 4835, San Joaquín",
-    "mensajeOrientacion": "Esta sala se encuentra en la sede de Vicuña Mackenna (Vicuña Mackenna 4835, San Joaquín), en el Edificio B y queda ubicada en el Piso 4."
+    "mensajeOrientacion": "Esta sala se encuentra en la sede de Vicuña Mackenna (Vicuña Mackenna 4835, San Joaquín), Sector B y queda ubicada en el Piso 4."
   },
   {
     "sala": "B402",
@@ -307,7 +307,7 @@ export const AULAS_DATA: Aula[] = [
     "edificio": "Edificio B",
     "sede": "San Joaquín",
     "direccion": "Vicuña Mackenna 4835, San Joaquín",
-    "mensajeOrientacion": "Esta sala se encuentra en la sede de Vicuña Mackenna (Vicuña Mackenna 4835, San Joaquín), en el Edificio B y queda ubicada en el Piso 4."
+    "mensajeOrientacion": "Esta sala se encuentra en la sede de Vicuña Mackenna (Vicuña Mackenna 4835, San Joaquín), Sector B y queda ubicada en el Piso 4."
   },
   {
     "sala": "B403",
@@ -318,7 +318,7 @@ export const AULAS_DATA: Aula[] = [
     "edificio": "Edificio B",
     "sede": "San Joaquín",
     "direccion": "Vicuña Mackenna 4835, San Joaquín",
-    "mensajeOrientacion": "Esta sala se encuentra en la sede de Vicuña Mackenna (Vicuña Mackenna 4835, San Joaquín), en el Edificio B y queda ubicada en el Piso 4."
+    "mensajeOrientacion": "Esta sala se encuentra en la sede de Vicuña Mackenna (Vicuña Mackenna 4835, San Joaquín), Sector B y queda ubicada en el Piso 4."
   },
   {
     "sala": "B404",
@@ -329,7 +329,7 @@ export const AULAS_DATA: Aula[] = [
     "edificio": "Edificio B",
     "sede": "San Joaquín",
     "direccion": "Vicuña Mackenna 4835, San Joaquín",
-    "mensajeOrientacion": "Esta sala se encuentra en la sede de Vicuña Mackenna (Vicuña Mackenna 4835, San Joaquín), en el Edificio B y queda ubicada en el Piso 4."
+    "mensajeOrientacion": "Esta sala se encuentra en la sede de Vicuña Mackenna (Vicuña Mackenna 4835, San Joaquín), Sector B y queda ubicada en el Piso 4."
   },
   {
     "sala": "B405",
@@ -340,7 +340,7 @@ export const AULAS_DATA: Aula[] = [
     "edificio": "Edificio B",
     "sede": "San Joaquín",
     "direccion": "Vicuña Mackenna 4835, San Joaquín",
-    "mensajeOrientacion": "Esta sala se encuentra en la sede de Vicuña Mackenna (Vicuña Mackenna 4835, San Joaquín), en el Edificio B y queda ubicada en el Piso 4."
+    "mensajeOrientacion": "Esta sala se encuentra en la sede de Vicuña Mackenna (Vicuña Mackenna 4835, San Joaquín), Sector B y queda ubicada en el Piso 4."
   },
   {
     "sala": "B406",
@@ -351,7 +351,7 @@ export const AULAS_DATA: Aula[] = [
     "edificio": "Edificio B",
     "sede": "San Joaquín",
     "direccion": "Vicuña Mackenna 4835, San Joaquín",
-    "mensajeOrientacion": "Esta sala se encuentra en la sede de Vicuña Mackenna (Vicuña Mackenna 4835, San Joaquín), en el Edificio B y queda ubicada en el Piso 4."
+    "mensajeOrientacion": "Esta sala se encuentra en la sede de Vicuña Mackenna (Vicuña Mackenna 4835, San Joaquín), Sector B y queda ubicada en el Piso 4."
   },
   {
     "sala": "B407",
@@ -362,7 +362,7 @@ export const AULAS_DATA: Aula[] = [
     "edificio": "Edificio B",
     "sede": "San Joaquín",
     "direccion": "Vicuña Mackenna 4835, San Joaquín",
-    "mensajeOrientacion": "Esta sala se encuentra en la sede de Vicuña Mackenna (Vicuña Mackenna 4835, San Joaquín), en el Edificio B y queda ubicada en el Piso 4."
+    "mensajeOrientacion": "Esta sala se encuentra en la sede de Vicuña Mackenna (Vicuña Mackenna 4835, San Joaquín), Sector B y queda ubicada en el Piso 4."
   },
   {
     "sala": "B408",
@@ -373,10 +373,10 @@ export const AULAS_DATA: Aula[] = [
     "edificio": "Edificio B",
     "sede": "San Joaquín",
     "direccion": "Vicuña Mackenna 4835, San Joaquín",
-    "mensajeOrientacion": "Esta sala se encuentra en la sede de Vicuña Mackenna (Vicuña Mackenna 4835, San Joaquín), en el Edificio B y queda ubicada en el Piso 4."
+    "mensajeOrientacion": "Esta sala se encuentra en la sede de Vicuña Mackenna (Vicuña Mackenna 4835, San Joaquín), Sector B y queda ubicada en el Piso 4."
   },
   {
-    "sala": "B-101",
+    "sala": "B-101 (ESTUDIO DE TV 1)",
     "codigo": "L-01-S01-B",
     "codigoNormalizado": "L01S01B",
     "piso": "Sótano -1",
@@ -384,10 +384,11 @@ export const AULAS_DATA: Aula[] = [
     "edificio": "Edificio B",
     "sede": "San Joaquín",
     "direccion": "Vicuña Mackenna 4835, San Joaquín",
-    "mensajeOrientacion": "Esta sala se encuentra en la sede de Vicuña Mackenna (Vicuña Mackenna 4835, San Joaquín), en el Edificio B y queda ubicada en el Sótano -1."
+    "mensajeOrientacion": "Esta sala corresponde a ESTUDIO DE TV 1, se encuentra en la sede de Vicuña Mackenna (Vicuña Mackenna 4835, San Joaquín), Sector B y queda ubicada en el Sótano -1.",
+    "nombreExtra": "ESTUDIO DE TV 1"
   },
   {
-    "sala": "B-102",
+    "sala": "B-102 (ESTUDIO DE TV 2)",
     "codigo": "L-02-S01-B",
     "codigoNormalizado": "L02S01B",
     "piso": "Sótano -1",
@@ -395,7 +396,8 @@ export const AULAS_DATA: Aula[] = [
     "edificio": "Edificio B",
     "sede": "San Joaquín",
     "direccion": "Vicuña Mackenna 4835, San Joaquín",
-    "mensajeOrientacion": "Esta sala se encuentra en la sede de Vicuña Mackenna (Vicuña Mackenna 4835, San Joaquín), en el Edificio B y queda ubicada en el Sótano -1."
+    "mensajeOrientacion": "Esta sala corresponde a ESTUDIO DE TV 2, se encuentra en la sede de Vicuña Mackenna (Vicuña Mackenna 4835, San Joaquín), Sector B y queda ubicada en el Sótano -1.",
+    "nombreExtra": "ESTUDIO DE TV 2"
   },
   {
     "sala": "B-201",
@@ -406,7 +408,7 @@ export const AULAS_DATA: Aula[] = [
     "edificio": "Edificio B",
     "sede": "San Joaquín",
     "direccion": "Vicuña Mackenna 4835, San Joaquín",
-    "mensajeOrientacion": "Esta sala se encuentra en la sede de Vicuña Mackenna (Vicuña Mackenna 4835, San Joaquín), en el Edificio B y queda ubicada en el Sótano -2."
+    "mensajeOrientacion": "Esta sala se encuentra en la sede de Vicuña Mackenna (Vicuña Mackenna 4835, San Joaquín), Sector B y queda ubicada en el Sótano -2."
   },
   {
     "sala": "B-202",
@@ -417,7 +419,7 @@ export const AULAS_DATA: Aula[] = [
     "edificio": "Edificio B",
     "sede": "San Joaquín",
     "direccion": "Vicuña Mackenna 4835, San Joaquín",
-    "mensajeOrientacion": "Esta sala se encuentra en la sede de Vicuña Mackenna (Vicuña Mackenna 4835, San Joaquín), en el Edificio B y queda ubicada en el Sótano -2."
+    "mensajeOrientacion": "Esta sala se encuentra en la sede de Vicuña Mackenna (Vicuña Mackenna 4835, San Joaquín), Sector B y queda ubicada en el Sótano -2."
   },
   {
     "sala": "B-203",
@@ -428,7 +430,7 @@ export const AULAS_DATA: Aula[] = [
     "edificio": "Edificio B",
     "sede": "San Joaquín",
     "direccion": "Vicuña Mackenna 4835, San Joaquín",
-    "mensajeOrientacion": "Esta sala se encuentra en la sede de Vicuña Mackenna (Vicuña Mackenna 4835, San Joaquín), en el Edificio B y queda ubicada en el Sótano -2."
+    "mensajeOrientacion": "Esta sala se encuentra en la sede de Vicuña Mackenna (Vicuña Mackenna 4835, San Joaquín), Sector B y queda ubicada en el Sótano -2."
   },
   {
     "sala": "B-204",
@@ -439,7 +441,7 @@ export const AULAS_DATA: Aula[] = [
     "edificio": "Edificio B",
     "sede": "San Joaquín",
     "direccion": "Vicuña Mackenna 4835, San Joaquín",
-    "mensajeOrientacion": "Esta sala se encuentra en la sede de Vicuña Mackenna (Vicuña Mackenna 4835, San Joaquín), en el Edificio B y queda ubicada en el Sótano -2."
+    "mensajeOrientacion": "Esta sala se encuentra en la sede de Vicuña Mackenna (Vicuña Mackenna 4835, San Joaquín), Sector B y queda ubicada en el Sótano -2."
   },
   {
     "sala": "B-206",
@@ -450,7 +452,7 @@ export const AULAS_DATA: Aula[] = [
     "edificio": "Edificio B",
     "sede": "San Joaquín",
     "direccion": "Vicuña Mackenna 4835, San Joaquín",
-    "mensajeOrientacion": "Esta sala se encuentra en la sede de Vicuña Mackenna (Vicuña Mackenna 4835, San Joaquín), en el Edificio B y queda ubicada en el Sótano -2."
+    "mensajeOrientacion": "Esta sala se encuentra en la sede de Vicuña Mackenna (Vicuña Mackenna 4835, San Joaquín), Sector B y queda ubicada en el Sótano -2."
   },
   {
     "sala": "C201",
@@ -461,7 +463,7 @@ export const AULAS_DATA: Aula[] = [
     "edificio": "Edificio C",
     "sede": "San Joaquín",
     "direccion": "Vicuña Mackenna 4835, San Joaquín",
-    "mensajeOrientacion": "Esta sala se encuentra en la sede de Vicuña Mackenna (Vicuña Mackenna 4835, San Joaquín), en el Edificio C y queda ubicada en el Piso 2."
+    "mensajeOrientacion": "Esta sala se encuentra en la sede de Vicuña Mackenna (Vicuña Mackenna 4835, San Joaquín), Sector C y queda ubicada en el Piso 2."
   },
   {
     "sala": "C301",
@@ -472,7 +474,7 @@ export const AULAS_DATA: Aula[] = [
     "edificio": "Edificio C",
     "sede": "San Joaquín",
     "direccion": "Vicuña Mackenna 4835, San Joaquín",
-    "mensajeOrientacion": "Esta sala se encuentra en la sede de Vicuña Mackenna (Vicuña Mackenna 4835, San Joaquín), en el Edificio C y queda ubicada en el Piso 3."
+    "mensajeOrientacion": "Esta sala se encuentra en la sede de Vicuña Mackenna (Vicuña Mackenna 4835, San Joaquín), Sector C y queda ubicada en el Piso 3."
   },
   {
     "sala": "C302",
@@ -483,7 +485,7 @@ export const AULAS_DATA: Aula[] = [
     "edificio": "Edificio C",
     "sede": "San Joaquín",
     "direccion": "Vicuña Mackenna 4835, San Joaquín",
-    "mensajeOrientacion": "Esta sala se encuentra en la sede de Vicuña Mackenna (Vicuña Mackenna 4835, San Joaquín), en el Edificio C y queda ubicada en el Piso 3."
+    "mensajeOrientacion": "Esta sala se encuentra en la sede de Vicuña Mackenna (Vicuña Mackenna 4835, San Joaquín), Sector C y queda ubicada en el Piso 3."
   },
   {
     "sala": "C406",
@@ -494,7 +496,7 @@ export const AULAS_DATA: Aula[] = [
     "edificio": "Edificio C",
     "sede": "San Joaquín",
     "direccion": "Vicuña Mackenna 4835, San Joaquín",
-    "mensajeOrientacion": "Esta sala se encuentra en la sede de Vicuña Mackenna (Vicuña Mackenna 4835, San Joaquín), en el Edificio C y queda ubicada en el Piso 4."
+    "mensajeOrientacion": "Esta sala se encuentra en la sede de Vicuña Mackenna (Vicuña Mackenna 4835, San Joaquín), Sector C y queda ubicada en el Piso 4."
   },
   {
     "sala": "C407",
@@ -505,7 +507,7 @@ export const AULAS_DATA: Aula[] = [
     "edificio": "Edificio C",
     "sede": "San Joaquín",
     "direccion": "Vicuña Mackenna 4835, San Joaquín",
-    "mensajeOrientacion": "Esta sala se encuentra en la sede de Vicuña Mackenna (Vicuña Mackenna 4835, San Joaquín), en el Edificio C y queda ubicada en el Piso 4."
+    "mensajeOrientacion": "Esta sala se encuentra en la sede de Vicuña Mackenna (Vicuña Mackenna 4835, San Joaquín), Sector C y queda ubicada en el Piso 4."
   },
   {
     "sala": "R101",
@@ -516,7 +518,7 @@ export const AULAS_DATA: Aula[] = [
     "edificio": "Sector Raquel",
     "sede": "Raquel",
     "direccion": "Raquel 9, San Joaquín",
-    "mensajeOrientacion": "Esta sala se encuentra en la sede Raquel, por lo que tienes que ir a la dirección Raquel 9, San Joaquín. Queda ubicada en el Piso 1."
+    "mensajeOrientacion": "Esta sala se encuentra ubicada en la sede Raquel (Raquel 9, San Joaquín) y queda en el Piso 1."
   },
   {
     "sala": "R102",
@@ -527,7 +529,7 @@ export const AULAS_DATA: Aula[] = [
     "edificio": "Sector Raquel",
     "sede": "Raquel",
     "direccion": "Raquel 9, San Joaquín",
-    "mensajeOrientacion": "Esta sala se encuentra en la sede Raquel, por lo que tienes que ir a la dirección Raquel 9, San Joaquín. Queda ubicada en el Piso 1."
+    "mensajeOrientacion": "Esta sala se encuentra ubicada en la sede Raquel (Raquel 9, San Joaquín) y queda en el Piso 1."
   },
   {
     "sala": "R103",
@@ -538,7 +540,7 @@ export const AULAS_DATA: Aula[] = [
     "edificio": "Sector Raquel",
     "sede": "Raquel",
     "direccion": "Raquel 9, San Joaquín",
-    "mensajeOrientacion": "Esta sala se encuentra en la sede Raquel, por lo que tienes que ir a la dirección Raquel 9, San Joaquín. Queda ubicada en el Piso 1."
+    "mensajeOrientacion": "Esta sala se encuentra ubicada en la sede Raquel (Raquel 9, San Joaquín) y queda en el Piso 1."
   },
   {
     "sala": "R104",
@@ -549,7 +551,7 @@ export const AULAS_DATA: Aula[] = [
     "edificio": "Sector Raquel",
     "sede": "Raquel",
     "direccion": "Raquel 9, San Joaquín",
-    "mensajeOrientacion": "Esta sala se encuentra en la sede Raquel, por lo que tienes que ir a la dirección Raquel 9, San Joaquín. Queda ubicada en el Piso 1."
+    "mensajeOrientacion": "Esta sala se encuentra ubicada en la sede Raquel (Raquel 9, San Joaquín) y queda en el Piso 1."
   },
   {
     "sala": "R106",
@@ -560,7 +562,7 @@ export const AULAS_DATA: Aula[] = [
     "edificio": "Sector Raquel",
     "sede": "Raquel",
     "direccion": "Raquel 9, San Joaquín",
-    "mensajeOrientacion": "Esta sala se encuentra en la sede Raquel, por lo que tienes que ir a la dirección Raquel 9, San Joaquín. Queda ubicada en el Piso 1."
+    "mensajeOrientacion": "Esta sala se encuentra ubicada en la sede Raquel (Raquel 9, San Joaquín) y queda en el Piso 1."
   },
   {
     "sala": "R107",
@@ -571,7 +573,7 @@ export const AULAS_DATA: Aula[] = [
     "edificio": "Sector Raquel",
     "sede": "Raquel",
     "direccion": "Raquel 9, San Joaquín",
-    "mensajeOrientacion": "Esta sala se encuentra en la sede Raquel, por lo que tienes que ir a la dirección Raquel 9, San Joaquín. Queda ubicada en el Piso 1."
+    "mensajeOrientacion": "Esta sala se encuentra ubicada en la sede Raquel (Raquel 9, San Joaquín) y queda en el Piso 1."
   },
   {
     "sala": "R108",
@@ -582,7 +584,7 @@ export const AULAS_DATA: Aula[] = [
     "edificio": "Sector Raquel",
     "sede": "Raquel",
     "direccion": "Raquel 9, San Joaquín",
-    "mensajeOrientacion": "Esta sala se encuentra en la sede Raquel, por lo que tienes que ir a la dirección Raquel 9, San Joaquín. Queda ubicada en el Piso 1."
+    "mensajeOrientacion": "Esta sala se encuentra ubicada en la sede Raquel (Raquel 9, San Joaquín) y queda en el Piso 1."
   },
   {
     "sala": "R110",
@@ -593,7 +595,7 @@ export const AULAS_DATA: Aula[] = [
     "edificio": "Sector Raquel",
     "sede": "Raquel",
     "direccion": "Raquel 9, San Joaquín",
-    "mensajeOrientacion": "Esta sala se encuentra en la sede Raquel, por lo que tienes que ir a la dirección Raquel 9, San Joaquín. Queda ubicada en el Piso 1."
+    "mensajeOrientacion": "Esta sala se encuentra ubicada en la sede Raquel (Raquel 9, San Joaquín) y queda en el Piso 1."
   },
   {
     "sala": "R111",
@@ -604,7 +606,7 @@ export const AULAS_DATA: Aula[] = [
     "edificio": "Sector Raquel",
     "sede": "Raquel",
     "direccion": "Raquel 9, San Joaquín",
-    "mensajeOrientacion": "Esta sala se encuentra en la sede Raquel, por lo que tienes que ir a la dirección Raquel 9, San Joaquín. Queda ubicada en el Piso 1."
+    "mensajeOrientacion": "Esta sala se encuentra ubicada en la sede Raquel (Raquel 9, San Joaquín) y queda en el Piso 1."
   },
   {
     "sala": "R112",
@@ -615,7 +617,7 @@ export const AULAS_DATA: Aula[] = [
     "edificio": "Sector Raquel",
     "sede": "Raquel",
     "direccion": "Raquel 9, San Joaquín",
-    "mensajeOrientacion": "Esta sala se encuentra en la sede Raquel, por lo que tienes que ir a la dirección Raquel 9, San Joaquín. Queda ubicada en el Piso 1."
+    "mensajeOrientacion": "Esta sala se encuentra ubicada en la sede Raquel (Raquel 9, San Joaquín) y queda en el Piso 1."
   },
   {
     "sala": "R113",
@@ -626,7 +628,7 @@ export const AULAS_DATA: Aula[] = [
     "edificio": "Sector Raquel",
     "sede": "Raquel",
     "direccion": "Raquel 9, San Joaquín",
-    "mensajeOrientacion": "Esta sala se encuentra en la sede Raquel, por lo que tienes que ir a la dirección Raquel 9, San Joaquín. Queda ubicada en el Piso 1."
+    "mensajeOrientacion": "Esta sala se encuentra ubicada en la sede Raquel (Raquel 9, San Joaquín) y queda en el Piso 1."
   },
   {
     "sala": "R114",
@@ -637,7 +639,7 @@ export const AULAS_DATA: Aula[] = [
     "edificio": "Sector Raquel",
     "sede": "Raquel",
     "direccion": "Raquel 9, San Joaquín",
-    "mensajeOrientacion": "Esta sala se encuentra en la sede Raquel, por lo que tienes que ir a la dirección Raquel 9, San Joaquín. Queda ubicada en el Piso 1."
+    "mensajeOrientacion": "Esta sala se encuentra ubicada en la sede Raquel (Raquel 9, San Joaquín) y queda en el Piso 1."
   },
   {
     "sala": "R115",
@@ -648,7 +650,7 @@ export const AULAS_DATA: Aula[] = [
     "edificio": "Sector Raquel",
     "sede": "Raquel",
     "direccion": "Raquel 9, San Joaquín",
-    "mensajeOrientacion": "Esta sala se encuentra en la sede Raquel, por lo que tienes que ir a la dirección Raquel 9, San Joaquín. Queda ubicada en el Piso 1."
+    "mensajeOrientacion": "Esta sala se encuentra ubicada en la sede Raquel (Raquel 9, San Joaquín) y queda en el Piso 1."
   },
   {
     "sala": "R116",
@@ -659,7 +661,7 @@ export const AULAS_DATA: Aula[] = [
     "edificio": "Sector Raquel",
     "sede": "Raquel",
     "direccion": "Raquel 9, San Joaquín",
-    "mensajeOrientacion": "Esta sala se encuentra en la sede Raquel, por lo que tienes que ir a la dirección Raquel 9, San Joaquín. Queda ubicada en el Piso 1."
+    "mensajeOrientacion": "Esta sala se encuentra ubicada en la sede Raquel (Raquel 9, San Joaquín) y queda en el Piso 1."
   },
   {
     "sala": "R117",
@@ -670,7 +672,7 @@ export const AULAS_DATA: Aula[] = [
     "edificio": "Sector Raquel",
     "sede": "Raquel",
     "direccion": "Raquel 9, San Joaquín",
-    "mensajeOrientacion": "Esta sala se encuentra en la sede Raquel, por lo que tienes que ir a la dirección Raquel 9, San Joaquín. Queda ubicada en el Piso 1."
+    "mensajeOrientacion": "Esta sala se encuentra ubicada en la sede Raquel (Raquel 9, San Joaquín) y queda en el Piso 1."
   },
   {
     "sala": "R118",
@@ -681,7 +683,7 @@ export const AULAS_DATA: Aula[] = [
     "edificio": "Sector Raquel",
     "sede": "Raquel",
     "direccion": "Raquel 9, San Joaquín",
-    "mensajeOrientacion": "Esta sala se encuentra en la sede Raquel, por lo que tienes que ir a la dirección Raquel 9, San Joaquín. Queda ubicada en el Piso 1."
+    "mensajeOrientacion": "Esta sala se encuentra ubicada en la sede Raquel (Raquel 9, San Joaquín) y queda en el Piso 1."
   },
   {
     "sala": "R119",
@@ -692,7 +694,7 @@ export const AULAS_DATA: Aula[] = [
     "edificio": "Sector Raquel",
     "sede": "Raquel",
     "direccion": "Raquel 9, San Joaquín",
-    "mensajeOrientacion": "Esta sala se encuentra en la sede Raquel, por lo que tienes que ir a la dirección Raquel 9, San Joaquín. Queda ubicada en el Piso 1."
+    "mensajeOrientacion": "Esta sala se encuentra ubicada en la sede Raquel (Raquel 9, San Joaquín) y queda en el Piso 1."
   },
   {
     "sala": "R120",
@@ -703,7 +705,7 @@ export const AULAS_DATA: Aula[] = [
     "edificio": "Sector Raquel",
     "sede": "Raquel",
     "direccion": "Raquel 9, San Joaquín",
-    "mensajeOrientacion": "Esta sala se encuentra en la sede Raquel, por lo que tienes que ir a la dirección Raquel 9, San Joaquín. Queda ubicada en el Piso 1."
+    "mensajeOrientacion": "Esta sala se encuentra ubicada en la sede Raquel (Raquel 9, San Joaquín) y queda en el Piso 1."
   },
   {
     "sala": "R121",
@@ -714,7 +716,7 @@ export const AULAS_DATA: Aula[] = [
     "edificio": "Sector Raquel",
     "sede": "Raquel",
     "direccion": "Raquel 9, San Joaquín",
-    "mensajeOrientacion": "Esta sala se encuentra en la sede Raquel, por lo que tienes que ir a la dirección Raquel 9, San Joaquín. Queda ubicada en el Piso 1."
+    "mensajeOrientacion": "Esta sala se encuentra ubicada en la sede Raquel (Raquel 9, San Joaquín) y queda en el Piso 1."
   },
   {
     "sala": "R122",
@@ -725,20 +727,21 @@ export const AULAS_DATA: Aula[] = [
     "edificio": "Sector Raquel",
     "sede": "Raquel",
     "direccion": "Raquel 9, San Joaquín",
-    "mensajeOrientacion": "Esta sala se encuentra en la sede Raquel, por lo que tienes que ir a la dirección Raquel 9, San Joaquín. Queda ubicada en el Piso 1."
+    "mensajeOrientacion": "Esta sala se encuentra ubicada en la sede Raquel (Raquel 9, San Joaquín) y queda en el Piso 1."
   }
 ];
 
 export const findAula = (term: string): Aula | null => {
   if (!term) return null;
-  const clean = term.toUpperCase().replace(/[\s-]/g, );
+  const clean = term.toUpperCase().replace(/[\s-]/g, "");
 
-  // Buscar por codigoNormalizado o por nombre de sala (ej. A203, R101, etc.)
+  // Buscar por codigoNormalizado, codigo o nombre de sala
   const found = AULAS_DATA.find(
     (a) =>
       a.codigoNormalizado === clean ||
-      a.sala.toUpperCase().replace(/[\s-]/g, ) === clean ||
-      a.codigo.toUpperCase().replace(/[\s-]/g, ) === clean
+      a.sala.toUpperCase().replace(/[\s-]/g, "") === clean ||
+      a.codigo.toUpperCase().replace(/[\s-]/g, "") === clean ||
+      a.sala.toUpperCase().replace(/[\s-]/g, "").includes(clean)
   );
 
   return found || null;
