@@ -101,8 +101,11 @@ const HistoryModal = ({ onClose, onSelectSearch }: HistoryModalProps) => {
                     className="flex-1 text-left flex flex-col sm:flex-row sm:items-center sm:justify-between pr-4 focus:outline-none"
                     onClick={() => handleSelectSearch(item)}
                   >
-                    <div className="font-bold text-lg text-slate-800 mb-1 sm:mb-0">
-                      {item.codigo}
+                    <div className="font-bold text-lg text-slate-800 mb-1 sm:mb-0 flex items-center gap-2">
+                      <span>{item.aulaData?.sala || item.codigo}</span>
+                      {item.aulaData?.sala && item.aulaData.sala !== item.codigo && (
+                        <span className="text-xs font-normal text-slate-500">({item.codigo})</span>
+                      )}
                     </div>
                     <div className="flex items-center text-sm text-slate-500 gap-3">
                       {item.aulaData?.sede && (

@@ -1,9 +1,13 @@
 export interface Aula {
-  campus: string;
-  pabellon: string;
-  piso: string;
+  sala: string;
+  codigo: string;
   codigoNormalizado: string;
-  // Añadir más campos según lo que devuelva el documento de firebase (e.g., name, capacity, etc.)
+  piso: number | string;
+  pabellon: string;
+  edificio: string;
+  sede: string;
+  direccion: string;
+  mensajeOrientacion?: string;
   [key: string]: any;
 }
 

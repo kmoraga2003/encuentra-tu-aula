@@ -19,19 +19,23 @@ const Home = forwardRef<HomeHandle>((_props, ref) => {
   const [loading, setLoading] = useState<boolean>(false);
   const [_searchCode, setSearchCode] = useState<string>("");
 
+  const handleResetSearch = () => {
+    setAula(null);
+    setError("");
+    setSearchCode("");
+    if (searchBarRef.current) {
+      searchBarRef.current.clearInput();
+    }
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
   useImperativeHandle(ref, () => ({
-    resetSearch: () => {
-      setAula(null);
-      setError("");
-      setSearchCode("");
-      if (searchBarRef.current) {
-        searchBarRef.current.clearInput();
-      }
-    },
+    resetSearch: handleResetSearch,
     displayAula: (codigo: string, aulaData: Aula) => {
       setAula(aulaData);
       setSearchCode(codigo);
       setError("");
+      window.scrollTo({ top: 0, behavior: 'smooth' });
     },
   }));
 
@@ -124,7 +128,14 @@ const Home = forwardRef<HomeHandle>((_props, ref) => {
             >
               <span className="block text-3xl mb-2">🔍</span>
               <p className="font-semibold text-lg text-white mb-1">Aula no encontrada</p>
-              <p className="text-sm text-red-200/80">{error}</p>
+              <p className="text-sm text-red-200/80 mb-4">{error}</p>
+              <button
+                onClick={handleResetSearch}
+                className="px-4 py-2 rounded-xl bg-[#0c2522] hover:bg-[#13332e] text-white text-xs sm:text-sm font-semibold border border-[#235048] transition-all cursor-pointer inline-flex items-center gap-1.5"
+              >
+                <span>↩️</span>
+                <span>Volver a intentar</span>
+              </button>
             </motion.div>
           )}
 
@@ -136,7 +147,7 @@ const Home = forwardRef<HomeHandle>((_props, ref) => {
               exit={{ opacity: 0, scale: 0.95, y: -15 }}
               transition={{ type: "spring", stiffness: 300, damping: 25 }}
             >
-              <AulaResult aula={aula} />
+              <AulaResult aula={aula} onResetSearch={handleResetSearch} />
             </motion.div>
           )}
         </AnimatePresence>
