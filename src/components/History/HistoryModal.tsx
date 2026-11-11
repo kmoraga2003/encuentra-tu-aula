@@ -63,7 +63,7 @@ const HistoryModal = ({ onClose, onSelectSearch }: HistoryModalProps) => {
 
   return (
     <motion.div 
-      className="fixed inset-0 bg-slate-900/40 backdrop-blur-sm z-50 flex items-center justify-center p-4" 
+      className="fixed inset-0 bg-black/60 backdrop-blur-md z-50 flex items-center justify-center p-4" 
       onClick={onClose}
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
@@ -71,17 +71,20 @@ const HistoryModal = ({ onClose, onSelectSearch }: HistoryModalProps) => {
       transition={{ duration: 0.2 }}
     >
       <motion.div
-        className="glass-card flex flex-col w-full max-w-md max-h-[85vh] overflow-hidden"
+        className="glass-card bg-[#0c2522] border border-[#235048] flex flex-col w-full max-w-md max-h-[85vh] overflow-hidden shadow-2xl text-slate-100"
         onClick={(e) => e.stopPropagation()}
         initial={{ opacity: 0, scale: 0.95, y: 15 }}
         animate={{ opacity: 1, scale: 1, y: 0 }}
         exit={{ opacity: 0, scale: 0.95, y: -15 }}
         transition={{ type: "spring", stiffness: 300, damping: 25 }}
       >
-        <div className="flex justify-between items-center p-6 border-b border-slate-100 bg-white/50">
-          <h2 className="text-xl font-bold text-slate-800">Historial de búsquedas</h2>
+        <div className="flex justify-between items-center p-5 border-b border-[#1b433c] bg-[#091c19]/90">
+          <div className="flex items-center gap-2">
+            <span className="text-xl">🕒</span>
+            <h2 className="text-lg font-bold text-white">Historial de Búsquedas</h2>
+          </div>
           <button
-            className="text-slate-400 hover:text-slate-600 hover:bg-slate-100 rounded-full w-8 h-8 flex items-center justify-center transition-colors"
+            className="text-slate-400 hover:text-white hover:bg-[#18453c] rounded-full w-8 h-8 flex items-center justify-center transition-colors"
             onClick={onClose}
             title="Cerrar"
             aria-label="Cerrar modal"
@@ -92,21 +95,25 @@ const HistoryModal = ({ onClose, onSelectSearch }: HistoryModalProps) => {
 
         <div className="flex-1 overflow-y-auto p-2">
           {history.length === 0 ? (
-            <p className="text-center text-slate-500 py-10">No hay búsquedas anteriores</p>
+            <div className="text-center py-12 px-4">
+              <span className="block text-4xl mb-3 opacity-60">📋</span>
+              <p className="text-slate-400 font-medium">No tienes búsquedas recientes</p>
+              <p className="text-xs text-slate-500 mt-1">Las salas que busques quedarán guardadas aquí.</p>
+            </div>
           ) : (
-            <div className="space-y-2 p-4">
+            <div className="space-y-2 p-3">
               {history.map((item) => (
-                <div key={item.id} className="flex bg-white/80 border border-slate-100 rounded-2xl p-3 shadow-sm hover:shadow-md transition-shadow group">
+                <div key={item.id} className="flex items-center bg-[#13332e]/80 border border-[#235048] rounded-xl p-3 shadow-sm hover:border-emerald-400/40 hover:bg-[#163c36] transition-all group">
                   <button
-                    className="flex-1 text-left flex flex-col sm:flex-row sm:items-center sm:justify-between pr-4 focus:outline-none"
+                    className="flex-1 text-left flex flex-col sm:flex-row sm:items-center sm:justify-between pr-3 focus:outline-none"
                     onClick={() => handleSelectSearch(item)}
                   >
-                    <div className="font-bold text-lg text-slate-800 mb-1 sm:mb-0">
+                    <div className="font-extrabold text-base sm:text-lg text-white mb-1 sm:mb-0">
                       {item.codigo}
                     </div>
-                    <div className="flex items-center text-sm text-slate-500 gap-3">
+                    <div className="flex items-center text-xs text-slate-400 gap-2">
                       {item.aulaData?.sede && (
-                        <span className="bg-teal-50 text-teal-700 px-2 py-0.5 rounded-md font-medium">
+                        <span className="bg-[#004c42] text-emerald-100 px-2 py-0.5 rounded-md font-semibold border border-emerald-500/20">
                           {item.aulaData.sede}
                         </span>
                       )}
@@ -114,12 +121,12 @@ const HistoryModal = ({ onClose, onSelectSearch }: HistoryModalProps) => {
                     </div>
                   </button>
                   <button
-                    className="text-slate-300 hover:text-red-500 p-2 rounded-full hover:bg-red-50 transition-colors opacity-100 sm:opacity-50 group-hover:opacity-100 focus:opacity-100 flex-shrink-0"
+                    className="text-slate-400 hover:text-red-400 p-2 rounded-lg hover:bg-red-500/10 transition-colors opacity-80 sm:opacity-50 group-hover:opacity-100 focus:opacity-100 flex-shrink-0"
                     onClick={() => handleRemove(item.id)}
-                    title="Eliminar"
+                    title="Eliminar del historial"
                     aria-label="Eliminar búsqueda"
                   >
-                    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12"></path></svg>
                   </button>
                 </div>
               ))}
@@ -128,9 +135,9 @@ const HistoryModal = ({ onClose, onSelectSearch }: HistoryModalProps) => {
         </div>
         
         {history.length > 0 && (
-          <div className="p-4 border-t border-slate-100 bg-white/50 flex justify-center">
+          <div className="p-4 border-t border-[#1b433c] bg-[#091c19]/90 flex justify-center">
             <button 
-              className="text-red-500 hover:text-red-700 hover:bg-red-50 font-medium py-2 px-4 rounded-xl transition-colors w-full"
+              className="text-red-400 hover:text-red-300 hover:bg-red-500/10 text-sm font-semibold py-2 px-4 rounded-xl transition-colors w-full border border-red-500/20"
               onClick={handleClearAll}
             >
               Borrar todo el historial

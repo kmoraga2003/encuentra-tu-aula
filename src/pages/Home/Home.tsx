@@ -5,6 +5,7 @@ import { getAulaByCode } from "../../services/aulaService";
 import { addSearchToHistory } from "../../utils/storageUtils";
 import { Aula } from "../../types";
 import { motion, AnimatePresence } from "framer-motion";
+import stLogo from "../../assets/images/santo-tomas-horizontal.png";
 
 export interface HomeHandle {
   resetSearch: () => void;
@@ -44,13 +45,13 @@ const Home = forwardRef<HomeHandle>((_props, ref) => {
       const result = await getAulaByCode(codigoNormalizado);
 
       if (!result) {
-        setError("No se encontró el aula");
+        setError("No se encontró el aula ingresada");
       } else {
         setAula(result);
         addSearchToHistory(codigoNormalizado, result);
       }
     } catch (err) {
-      setError("Error al consultar el aula");
+      setError("Error al consultar el aula. Intenta nuevamente.");
     }
 
     setLoading(false);
@@ -68,11 +69,27 @@ const Home = forwardRef<HomeHandle>((_props, ref) => {
             transition={{ duration: 0.3, ease: 'easeInOut' }}
             className="w-full flex flex-col items-center"
           >
-            <div className="w-full text-center mt-8 mb-10">
-              <h1 className="text-4xl md:text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-teal-700 to-emerald-500 drop-shadow-sm tracking-tight mb-2">
+            {/* Institutional Logo Santo Tomás */}
+            <div className="w-full flex flex-col items-center mt-6 mb-8">
+              <div className="p-3 bg-[#0c2522]/60 rounded-2xl border border-[#1d463f]/60 backdrop-blur-md shadow-xl mb-6">
+                <img 
+                  src={stLogo} 
+                  alt="Santo Tomás" 
+                  className="h-12 sm:h-14 w-auto object-contain drop-shadow-md"
+                />
+              </div>
+
+              <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white tracking-tight text-center drop-shadow-sm mb-2">
                 EncuentraTuAula
               </h1>
-              <p className="text-slate-500 font-medium tracking-wide">BUSCADOR DE AULAS</p>
+              
+              <div className="flex items-center gap-2">
+                <span className="h-1.5 w-1.5 rounded-full bg-emerald-400"></span>
+                <p className="text-xs sm:text-sm font-semibold tracking-wider text-emerald-200/90 uppercase">
+                  Buscador Oficial de Aulas · Santo Tomás
+                </p>
+                <span className="h-1.5 w-1.5 rounded-full bg-emerald-400"></span>
+              </div>
             </div>
 
             <SearchBar ref={searchBarRef} onSearch={handleSearch} />
@@ -80,7 +97,7 @@ const Home = forwardRef<HomeHandle>((_props, ref) => {
         )}
       </AnimatePresence>
 
-      <div className="w-full mt-8">
+      <div className="w-full mt-6">
         <AnimatePresence mode="wait">
           {loading && (
             <motion.div 
@@ -89,9 +106,10 @@ const Home = forwardRef<HomeHandle>((_props, ref) => {
               animate={{ opacity: 1, scale: 1 }}
               exit={{ opacity: 0, scale: 0.9 }}
               transition={{ duration: 0.2 }}
-              className="flex justify-center items-center py-10"
+              className="flex flex-col justify-center items-center py-12"
             >
-              <div className="w-10 h-10 border-4 border-teal-200 border-t-accent rounded-full animate-spin"></div>
+              <div className="w-12 h-12 border-4 border-[#1b433c] border-t-emerald-400 rounded-full animate-spin mb-3"></div>
+              <p className="text-sm font-medium text-emerald-200/80">Consultando información del aula...</p>
             </motion.div>
           )}
 
@@ -102,10 +120,11 @@ const Home = forwardRef<HomeHandle>((_props, ref) => {
               animate={{ opacity: 1, scale: 1, y: 0 }}
               exit={{ opacity: 0, scale: 0.95, y: -10 }}
               transition={{ duration: 0.2 }}
-              className="glass-card bg-red-50/80 border-red-200 p-6 text-center text-red-600 font-medium"
+              className="glass-card bg-[#281313]/90 border border-red-500/30 p-6 text-center text-red-200 shadow-xl"
             >
-              <span className="block text-3xl mb-2">😕</span>
-              <p>{error}</p>
+              <span className="block text-3xl mb-2">🔍</span>
+              <p className="font-semibold text-lg text-white mb-1">Aula no encontrada</p>
+              <p className="text-sm text-red-200/80">{error}</p>
             </motion.div>
           )}
 

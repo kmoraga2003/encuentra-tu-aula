@@ -44,34 +44,36 @@ const Navbar = ({ onNavigateHome, onSelectFromHistory, onResetInput }: NavbarPro
       onClick={onClick}
       title={label}
       aria-label={label}
-      className={`flex flex-col items-center justify-center p-2 ${baseColor} transition-colors active:scale-95 group`}
+      className={`flex flex-col items-center justify-center p-1.5 ${baseColor} transition-all active:scale-95 group`}
     >
       <div className={`
-        ${isActive ? `${activeBg} ${activeShadow}` : `bg-slate-50/50 group-hover:${activeBg} group-hover:${activeShadow}`} 
-        rounded-full p-3 transition-all duration-300 mb-1 
-        ${!isActive && 'transform group-hover:-translate-y-1'}
+        ${isActive ? `${activeBg} ${activeShadow} text-white` : `bg-[#13332e]/70 text-slate-300 group-hover:${activeBg} group-hover:text-white`} 
+        rounded-2xl p-2.5 sm:p-3 transition-all duration-300 mb-1 border border-[#235048]/50
+        ${!isActive && 'transform group-hover:-translate-y-0.5'}
       `}>
         {icon}
       </div>
-      <span className={`text-xs ${isActive ? 'font-semibold' : 'font-medium group-hover:font-semibold'} transition-all`}>{label}</span>
+      <span className={`text-[11px] sm:text-xs ${isActive ? 'font-bold text-white' : 'font-medium text-slate-400 group-hover:text-slate-200'} transition-all`}>
+        {label}
+      </span>
     </button>
   );
 
   return (
     <>
-      {/* Desktop / Mobile container centered within max-w-md */}
+      {/* Centered navigation within max-w-md */}
       <div className="fixed bottom-0 left-0 right-0 flex justify-center pointer-events-none z-40">
         <div className="w-full max-w-md pointer-events-auto">
-          <nav className="glass-card m-4 px-8 py-2 flex justify-between items-center shadow-2xl border-white/40">
+          <nav className="glass-card bg-[#0c2522]/95 border border-[#235048] mx-4 my-3 px-6 sm:px-8 py-2 flex justify-between items-center shadow-2xl backdrop-blur-xl">
             <NavButton 
               onClick={handleHomeClick} 
               label="Inicio" 
-              baseColor="text-emerald-700"
-              activeBg="bg-emerald-200/60"
-              activeShadow="shadow-lg shadow-emerald-400/40"
+              baseColor="text-emerald-300"
+              activeBg="bg-[#004c42]"
+              activeShadow="shadow-lg shadow-[#004c42]/50 border-emerald-400/40"
               isActive={isHomeActive}
               icon={
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill={isHomeActive ? "currentColor" : "none"} stroke="currentColor" strokeWidth={isHomeActive ? "0" : "2"} strokeLinecap="round" strokeLinejoin="round" className="w-6 h-6">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill={isHomeActive ? "currentColor" : "none"} stroke="currentColor" strokeWidth={isHomeActive ? "0" : "2"} strokeLinecap="round" strokeLinejoin="round" className="w-5 h-5 sm:w-6 sm:h-6">
                   {isHomeActive ? (
                     <path d="M12 3L4 9v12h5v-7h6v7h5V9z" />
                   ) : (
@@ -87,12 +89,12 @@ const Navbar = ({ onNavigateHome, onSelectFromHistory, onResetInput }: NavbarPro
             <NavButton 
               onClick={() => { setShowHistory(true); setShowHelp(false); }} 
               label="Historial" 
-              baseColor="text-slate-700"
-              activeBg="bg-slate-200/60"
-              activeShadow="shadow-lg shadow-slate-400/30"
+              baseColor="text-slate-300"
+              activeBg="bg-[#18453c]"
+              activeShadow="shadow-lg shadow-black/40 border-emerald-500/30"
               isActive={showHistory}
               icon={
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill={showHistory ? "currentColor" : "none"} stroke="currentColor" strokeWidth={showHistory ? "0" : "2"} strokeLinecap="round" strokeLinejoin="round" className="w-6 h-6">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill={showHistory ? "currentColor" : "none"} stroke="currentColor" strokeWidth={showHistory ? "0" : "2"} strokeLinecap="round" strokeLinejoin="round" className="w-5 h-5 sm:w-6 sm:h-6">
                   {showHistory ? (
                     <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 14H11V7h2v6.17l3.54 3.53-1.41 1.41-3.13-3.11z" />
                   ) : (
@@ -108,12 +110,12 @@ const Navbar = ({ onNavigateHome, onSelectFromHistory, onResetInput }: NavbarPro
             <NavButton 
               onClick={() => { setShowHelp(true); setShowHistory(false); }} 
               label="Ayuda" 
-              baseColor="text-amber-600"
-              activeBg="bg-amber-100"
-              activeShadow="shadow-lg shadow-amber-400/30"
+              baseColor="text-amber-300"
+              activeBg="bg-amber-700/80"
+              activeShadow="shadow-lg shadow-amber-900/40 border-amber-500/40"
               isActive={showHelp}
               icon={
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill={showHelp ? "currentColor" : "none"} stroke="currentColor" strokeWidth={showHelp ? "0" : "2"} strokeLinecap="round" strokeLinejoin="round" className="w-6 h-6">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill={showHelp ? "currentColor" : "none"} stroke="currentColor" strokeWidth={showHelp ? "0" : "2"} strokeLinecap="round" strokeLinejoin="round" className="w-5 h-5 sm:w-6 sm:h-6">
                   {showHelp ? (
                     <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z" />
                   ) : (
