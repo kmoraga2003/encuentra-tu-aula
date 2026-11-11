@@ -23,7 +23,6 @@ const AulaResult = ({ aula, onResetSearch }: AulaResultProps) => {
   const sedeTexto = isRaquel ? "Raquel" : "San Joaquín";
   const sectorTexto = aula.pabellon?.toUpperCase() || (isRaquel ? "R" : "A");
   const direccionTexto = aula.direccion || (isRaquel ? "Raquel 9, San Joaquín" : "Vicuña Mackenna 4835, San Joaquín");
-  const edificioTexto = isRaquel ? "Raquel" : (aula.edificio || `Edificio ${sectorTexto}`);
   
   const pisoTexto = typeof aula.piso === "number" 
     ? (aula.piso < 0 ? `Sótano ${aula.piso}` : `Piso ${aula.piso}`)
@@ -35,13 +34,13 @@ const AulaResult = ({ aula, onResetSearch }: AulaResultProps) => {
   const mainSalaName = matchExtra ? matchExtra[1].trim() : rawSala;
   const extraInfo = matchExtra ? matchExtra[2].trim() : aula.nombreExtra || null;
 
-  // Mensaje de orientación dinámico
+  // Mensaje de orientación dinámico (sin mencionar 'Edificio', solo Sector para Vicuña)
   const mensajeOrientacion = aula.mensajeOrientacion || (
     isRaquel
       ? `Esta sala se encuentra ubicada en la sede Raquel (${direccionTexto}) y queda en el ${pisoTexto}.`
       : extraInfo
-        ? `Esta sala corresponde a ${extraInfo}, se encuentra en la sede de Vicuña Mackenna (${direccionTexto}), Sector ${sectorTexto}, ${edificioTexto} y queda ubicada en el ${pisoTexto}.`
-        : `Esta sala se encuentra en la sede de Vicuña Mackenna (${direccionTexto}), Sector ${sectorTexto}, ${edificioTexto} y queda ubicada en el ${pisoTexto}.`
+        ? `Esta sala corresponde a ${extraInfo}, se encuentra en la sede de Vicuña Mackenna (${direccionTexto}), Sector ${sectorTexto} y queda ubicada en el ${pisoTexto}.`
+        : `Esta sala se encuentra en la sede de Vicuña Mackenna (${direccionTexto}), Sector ${sectorTexto} y queda ubicada en el ${pisoTexto}.`
   );
 
   return (
@@ -78,7 +77,7 @@ const AulaResult = ({ aula, onResetSearch }: AulaResultProps) => {
         </div>
       </div>
 
-      {/* Details */}
+      {/* Details (sin campo 'Edificio') */}
       <div className="py-4 space-y-3">
         <div className="flex items-center justify-between">
           <span className="font-semibold text-emerald-200/80 text-sm">Sede</span>
@@ -92,11 +91,6 @@ const AulaResult = ({ aula, onResetSearch }: AulaResultProps) => {
             <span className="text-right text-white font-bold">Sector {sectorTexto}</span>
           </div>
         )}
-
-        <div className="flex items-center justify-between">
-          <span className="font-semibold text-emerald-200/80 text-sm">{isRaquel ? "Ubicación" : "Edificio / Pabellón"}</span>
-          <span className="text-right text-white font-bold">{edificioTexto}</span>
-        </div>
 
         <div className="flex items-center justify-between">
           <span className="font-semibold text-emerald-200/80 text-sm">Piso</span>
@@ -124,7 +118,7 @@ const AulaResult = ({ aula, onResetSearch }: AulaResultProps) => {
         </div>
       </div>
 
-      {/* Mensaje de Orientación */}
+      {/* Mensaje de Orientación (sin 'Edificio') */}
       <div className="pt-4 mt-2">
         <span className="block font-bold text-emerald-200/90 text-xs sm:text-sm mb-2 uppercase tracking-wide flex items-center gap-1.5">
           <span>📍</span> Información de Ubicación
